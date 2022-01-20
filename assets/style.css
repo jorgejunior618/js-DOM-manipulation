@@ -17,7 +17,15 @@ section {
   display: flex;
   flex-direction: column;
 
-  height: 100vh;
+  height: 92vh;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  height: 8vh;
+  display: flex;background-color: #334;
+  color: #e7e7ef;
   align-items: center;
   justify-content: center;
 }
@@ -47,7 +55,7 @@ body.dark-mode {
   color: #F5F5FE;
 }
 
-.dark-mode #buttom {
+.dark-mode #buttom, .dark-mode footer {
   background-color: #D5D5DE;
   color: #334;
 }
